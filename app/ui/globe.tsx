@@ -786,8 +786,8 @@ export function MinimalGlobe({
           {/* Decal-style superellipse that wraps on the sphere */}
           <SuperellipseDecalFillOnGlobe
             radius={radius}
-            planeWidth={radius * 1.2}
-            planeHeight={radius * 0.5}
+            planeWidth={radius * 0.8}
+            planeHeight={radius * 0.3}
             a={2}
             b={0.6}
             n={1.5}
@@ -801,8 +801,8 @@ export function MinimalGlobe({
           />
           <SuperellipseDecalGlowOnGlobe
             radius={radius}
-            planeWidth={radius * 1.2}
-            planeHeight={radius * 0.5}
+            planeWidth={radius * 0.8}
+            planeHeight={radius * 0.3}
             a={2}
             b={0.6}
             n={1.5}
@@ -828,8 +828,8 @@ export function MinimalGlobe({
           ))}
           <SuperellipseDecalOutlineOnGlobe
             radius={radius}
-            planeWidth={radius * 1.2}
-            planeHeight={radius * 0.5}
+            planeWidth={radius * 0.8}
+            planeHeight={radius * 0.3}
             a={2}
             b={0.6}
             n={1.5}
