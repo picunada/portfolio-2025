@@ -1,4 +1,3 @@
-import { Button } from "@/app/ui/button";
 import { GitHubData } from "@/app/ui/dashboard/gh";
 import { MotionWrapper } from "@/app/ui/motion";
 import ThreeDCanvas from "@/app/ui/canvas";
