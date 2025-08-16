@@ -1,16 +1,11 @@
 import { GitHubData } from "@/app/ui/dashboard/gh";
 import { MotionWrapper } from "@/app/ui/motion";
-import ThreeDCanvas from "@/app/ui/canvas";
 import { Suspense } from "react";
 
 export default function Home() {
   return (
     <>
-      <ThreeDCanvas />
-      <h1 className="font-bold text-4xl z-1">Picunada</h1>
-      {/* <div>
-        <Button>Start journey</Button>
-      </div> */}
+      <h1 className="font-bold text-4xl z-10">Picunada</h1>
       <Suspense>
         <MotionWrapper
           initial={{ opacity: 0, scale: 0 }}

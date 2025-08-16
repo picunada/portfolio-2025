@@ -1,7 +1,6 @@
 import "@/app/ui/globals.css";
 import type { Metadata } from "next";
 import { font } from "./ui/fonts";
-import ThreeDCanvas from "@/app/ui/canvas";
 
 export const metadata: Metadata = {
   title: {
